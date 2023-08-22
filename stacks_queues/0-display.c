@@ -20,7 +20,7 @@ void display()
       printf("The elements of the stack are:\n");
       for (item = top; item >= 0; item--)
       {
-        printf("%d\n",stack[i]);
+        printf("%d\n",stack[item]);
       }
     }
 }       

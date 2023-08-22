@@ -1,5 +1,6 @@
 #include "main.h"
 
+
 /**
  * pop - remove element from a C stack
  */
@@ -15,8 +16,8 @@ void pop()
     }
     else
     {
-      element=stack[top];
-      printf("The deleted item is %d\n",stack[top]);
+      element = stack[top];
+      printf("The deleted item is %d\n", stack[top]);
       top--; /* The element below the topmost element is deleted */
     }
 }

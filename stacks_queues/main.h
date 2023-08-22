@@ -1,11 +1,13 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-#include <limits.h>
 #include <stdio.h>
-#include <stdio.h>
+#include <stdlib.h>
 
 #define LIMIT 11
+
+/* global variables */
+
 
 void push();
 void pop();

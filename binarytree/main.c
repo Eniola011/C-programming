@@ -14,6 +14,8 @@ int main()
     n3->left = n4;
     n3->right = n5;
 
+    printtree(n1);
+
     free(n1);
     free(n2);
     free(n3);

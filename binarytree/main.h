@@ -14,7 +14,7 @@ typedef struct treenode
 
 
 treenode *createnode(int value);
-
+void printtree(treenode *root);
 
 
 #endif

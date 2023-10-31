@@ -6,8 +6,6 @@
  */
 void push()
 {
-    int stack[LIMIT];
-    int top;
     int element;
 
     if (top == LIMIT - 1) /* limit is 11, so 0-10 is 11 elements */
